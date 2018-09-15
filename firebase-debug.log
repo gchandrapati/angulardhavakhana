@@ -1,0 +1,168 @@
+[debug] [2018-06-30T14:29:35.450Z] ----------------------------------------------------------------------
+[debug] [2018-06-30T14:29:35.452Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\chandrika\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-06-30T14:29:35.453Z] CLI Version:   3.18.4
+[debug] [2018-06-30T14:29:35.453Z] Platform:      win32
+[debug] [2018-06-30T14:29:35.453Z] Node Version:  v8.9.4
+[debug] [2018-06-30T14:29:35.453Z] Time:          Sat Jun 30 2018 19:59:35 GMT+0530 (India Standard Time)
+[debug] [2018-06-30T14:29:35.453Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-30T14:29:35.466Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-30T14:29:35.466Z] > authorizing via signed-in user
+[debug] [2018-06-30T14:29:35.468Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-06-30T14:29:35.468Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/SJ6oFj9Az2gq5FMJABzA1DURaeTb95PfhNU3Ui402pTvlmRea3S28CiWIUY7lFah',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Jun 30 2018 19:59:35 GMT+0530 (India Standard Time)
+[debug] [2018-06-30T14:29:36.025Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-30T14:29:36.045Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/e-dhavakhana  
+  
+ Sat Jun 30 2018 19:59:36 GMT+0530 (India Standard Time)
+[debug] [2018-06-30T14:29:37.676Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-30T14:29:37.678Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/e-dhavakhana/tokens  
+  
+ Sat Jun 30 2018 19:59:37 GMT+0530 (India Standard Time)
+[debug] [2018-06-30T14:29:38.951Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'e-dhavakhana'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing dist directory for upload...
+[debug] [2018-06-30T14:29:47.047Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/e-dhavakhana/uploads/-LGG5Mc4JFkSpN8DH1pD?fileCount=428&message=  
+  
+ Sat Jun 30 2018 19:59:47 GMT+0530 (India Standard Time)
+[debug] [2018-06-30T14:34:29.240Z] Error: write ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:867:14)
+[error] 
+[error] Error: Server Error. write ECONNRESET
+[debug] [2018-06-30T14:34:45.708Z] ----------------------------------------------------------------------
+[debug] [2018-06-30T14:34:45.711Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\chandrika\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-06-30T14:34:45.711Z] CLI Version:   3.18.4
+[debug] [2018-06-30T14:34:45.711Z] Platform:      win32
+[debug] [2018-06-30T14:34:45.711Z] Node Version:  v8.9.4
+[debug] [2018-06-30T14:34:45.712Z] Time:          Sat Jun 30 2018 20:04:45 GMT+0530 (India Standard Time)
+[debug] [2018-06-30T14:34:45.712Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-30T14:34:45.723Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-30T14:34:45.723Z] > authorizing via signed-in user
+[debug] [2018-06-30T14:34:45.726Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/e-dhavakhana  
+  
+ Sat Jun 30 2018 20:04:45 GMT+0530 (India Standard Time)
+[debug] [2018-06-30T14:34:47.539Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-30T14:34:47.540Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/e-dhavakhana/tokens  
+  
+ Sat Jun 30 2018 20:04:47 GMT+0530 (India Standard Time)
+[debug] [2018-06-30T14:34:49.343Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'e-dhavakhana'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing dist directory for upload...
+[debug] [2018-06-30T14:34:57.131Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/e-dhavakhana/uploads/-LGG6YPP05N-vszAlSb2?fileCount=428&message=  
+  
+ Sat Jun 30 2018 20:04:57 GMT+0530 (India Standard Time)
+[debug] [2018-06-30T14:35:33.501Z] Error: write ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:867:14)
+[error] 
+[error] Error: Server Error. write ECONNRESET
+[debug] [2018-06-30T14:36:39.688Z] ----------------------------------------------------------------------
+[debug] [2018-06-30T14:36:39.688Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\chandrika\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-06-30T14:36:39.688Z] CLI Version:   3.18.4
+[debug] [2018-06-30T14:36:39.688Z] Platform:      win32
+[debug] [2018-06-30T14:36:39.688Z] Node Version:  v8.9.4
+[debug] [2018-06-30T14:36:39.688Z] Time:          Sat Jun 30 2018 20:06:39 GMT+0530 (India Standard Time)
+[debug] [2018-06-30T14:36:39.688Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-30T14:36:39.703Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-30T14:36:39.703Z] > authorizing via signed-in user
+[debug] [2018-06-30T14:36:39.703Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/e-dhavakhana  
+  
+ Sat Jun 30 2018 20:06:39 GMT+0530 (India Standard Time)
+[debug] [2018-06-30T14:36:41.352Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-30T14:36:41.354Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/e-dhavakhana/tokens  
+  
+ Sat Jun 30 2018 20:06:41 GMT+0530 (India Standard Time)
+[debug] [2018-06-30T14:36:43.191Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'e-dhavakhana'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing dist directory for upload...
+[debug] [2018-06-30T14:36:50.094Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/e-dhavakhana/uploads/-LGG6z6WN9C2kThoCcFJ?fileCount=428&message=  
+  
+ Sat Jun 30 2018 20:06:50 GMT+0530 (India Standard Time)
+[debug] [2018-06-30T14:37:19.657Z] Error: write ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:867:14)
+[error] 
+[error] Error: Server Error. write ECONNRESET
+[debug] [2018-06-30T14:45:09.205Z] ----------------------------------------------------------------------
+[debug] [2018-06-30T14:45:09.207Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\chandrika\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-06-30T14:45:09.207Z] CLI Version:   3.18.4
+[debug] [2018-06-30T14:45:09.207Z] Platform:      win32
+[debug] [2018-06-30T14:45:09.207Z] Node Version:  v8.9.4
+[debug] [2018-06-30T14:45:09.208Z] Time:          Sat Jun 30 2018 20:15:09 GMT+0530 (India Standard Time)
+[debug] [2018-06-30T14:45:09.208Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-30T14:45:09.217Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-30T14:45:09.217Z] > authorizing via signed-in user
+[debug] [2018-06-30T14:45:09.219Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/e-dhavakhana  
+  
+ Sat Jun 30 2018 20:15:09 GMT+0530 (India Standard Time)
+[debug] [2018-06-30T14:45:10.841Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-30T14:45:10.857Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/e-dhavakhana/tokens  
+  
+ Sat Jun 30 2018 20:15:10 GMT+0530 (India Standard Time)
+[debug] [2018-06-30T14:45:13.223Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'e-dhavakhana'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing dist directory for upload...
+[debug] [2018-06-30T14:45:23.085Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/e-dhavakhana/uploads/-LGG8wLbVAddhimHBELB?fileCount=428&message=  
+  
+ Sat Jun 30 2018 20:15:23 GMT+0530 (India Standard Time)
+[debug] [2018-06-30T14:46:04.766Z] Error: write ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:867:14)
+[error] 
+[error] Error: Server Error. write ECONNRESET
+[debug] [2018-06-30T16:45:28.299Z] ----------------------------------------------------------------------
+[debug] [2018-06-30T16:45:28.299Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\chandrika\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-06-30T16:45:28.299Z] CLI Version:   3.18.4
+[debug] [2018-06-30T16:45:28.299Z] Platform:      win32
+[debug] [2018-06-30T16:45:28.299Z] Node Version:  v8.9.4
+[debug] [2018-06-30T16:45:28.299Z] Time:          Sat Jun 30 2018 22:15:28 GMT+0530 (India Standard Time)
+[debug] [2018-06-30T16:45:28.299Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-30T16:45:28.299Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-30T16:45:28.299Z] > authorizing via signed-in user
+[debug] [2018-06-30T16:45:28.299Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-06-30T16:45:28.315Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/SJ6oFj9Az2gq5FMJABzA1DURaeTb95PfhNU3Ui402pTvlmRea3S28CiWIUY7lFah',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Jun 30 2018 22:15:28 GMT+0530 (India Standard Time)
+[debug] [2018-06-30T16:45:29.096Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-30T16:45:29.111Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/e-dhavakhana  
+  
+ Sat Jun 30 2018 22:15:29 GMT+0530 (India Standard Time)
+[debug] [2018-06-30T16:45:30.768Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-30T16:45:30.768Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/e-dhavakhana/tokens  
+  
+ Sat Jun 30 2018 22:15:30 GMT+0530 (India Standard Time)
+[debug] [2018-06-30T16:45:32.362Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'e-dhavakhana'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing dist directory for upload...
+[debug] [2018-06-30T16:45:39.258Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/e-dhavakhana/uploads/-LGG_T5SXSQjzCJ9Qrl0?fileCount=428&message=  
+  
+ Sat Jun 30 2018 22:15:39 GMT+0530 (India Standard Time)
